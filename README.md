@@ -116,7 +116,7 @@ Certain companies have acquired bonds under slightly varied names, prompting us 
 ## Project folder Structure: 
 
 ```bash 
-C:\USERS\VMR12\ONEDRIVE\DESKTOP\FINAL PROJECT\EDA PYTHON
+EDA PYTHON
 │   EDA_Electoral_bond_data.ipynb
 │   README.md
 │

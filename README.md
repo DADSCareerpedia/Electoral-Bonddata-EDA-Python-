@@ -112,4 +112,56 @@ The data released by the government is not complete as the records count in rece
 Certain companies have acquired bonds under slightly varied names, prompting us to analyze and correct these discrepancies with a degree of due diligence. These adjustments can be referenced in the data cleaning section of the code.
 
 ---
+
+## Project folder Structure: 
+
+```bash 
+C:\USERS\VMR12\ONEDRIVE\DESKTOP\FINAL PROJECT\EDA PYTHON
+│   EDA_Electoral_bond_data.ipynb
+│   README.md
+│
+├───.ipynb_checkpoints
+│       EDA_Electoral_bond_data-checkpoint.ipynb
+│       Finale_Submission-checkpoint.ipynb
+│
+├───Data Cleaning
+│       Data Cleaning.xlsx
+│       README.md
+│
+├───img
+│   │   dataframe.png
+│   │
+│   └───.ipynb_checkpoints
+│           dataframe-checkpoint.png
+│
+├───output
+│       Note.md
+│
+├───RawData
+│   │   Bankcodes.tsv
+│   │   Bankcodes.txt
+│   │   bank_data.xlsx
+│   │   donor_data.csv
+│   │   party_list.csv
+│   │   receiver_data.csv
+│   │
+│   ├───.ipynb_checkpoints
+│   │       receiver_data-checkpoint.csv
+│   │
+│   └───Data_excel
+│           Bankcodes.xlsx
+│           Bank_Issuecode Data.xlsx
+│           SQL-schema.xlsx
+│
+└───temp_files
+        note.md
+
+```
+- temp_files is the folder some tempory files from the code are stored and further explanation is provided in note.md file. 
+- RawData is the folder where data files needed for analysis is stored not all of them are used as some of them are derived files but all the data files used in the code are here. 
+- output is the folder data files are exported and further explanation is provided in Note.md file available inside output folder. 
+- img is the folder where some images are stored which are refered in the EDA jupyter notebook 
+- Data Cleaning Folder has the files related to data cleaning. 
+- EDA_Electoral_bond_data.ipynb is the file where the eda is accomplished using python and python libraries. 
+
 ---
